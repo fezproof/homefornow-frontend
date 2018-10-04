@@ -1,7 +1,6 @@
 # HomeForNow Front-End
 
-![Travis (.org) branch](https://img.shields.io/travis/fezproof/homefornow-frontend/master.svg?style=for-the-badge)
-
+[![Build Status](https://travis-ci.com/fezproof/homefornow-frontend.svg?branch=master)](https://travis-ci.com/fezproof/homefornow-frontend)
 ## Project setup
 ```
 npm install
