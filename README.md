@@ -1,4 +1,6 @@
-# homefornow-frontend
+# HomeForNow Front-End
+
+![Travis (.org) branch](https://img.shields.io/travis/fezproof/homefornow-frontend/master.svg?style=for-the-badge)
 
 ## Project setup
 ```
