@@ -6,12 +6,14 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "fix": "eslint --fix .",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
+    "vuetify": "^1.2.6",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
@@ -25,6 +27,7 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^23.0.1",
     "lint-staged": "^7.2.2",
+    "vue-cli-plugin-vuetify": "^0.2.1",
     "vue-template-compiler": "^2.5.17"
   },
   "gitHooks": {
