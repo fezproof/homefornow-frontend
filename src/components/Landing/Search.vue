@@ -1,6 +1,9 @@
 <template>
   <v-flex xs12 sm6 offset-sm3>
-    <v-toolbar flat height="75">
+    <v-toolbar flat height="75"
+      :color="focus ? 'white' : 'transparent'"
+      :dark="!focus"
+    >
       <v-btn
         icon
         @click="geolocation"
@@ -9,18 +12,17 @@
       </v-btn>
       <v-input
         single-line
-        :class="{ 'v-text-field': true, 'v-input--is-focused': focus, 'primary--text': focus }"
         :error-messages="errors"
+        hide-details
       >
-        <div class="v-text-field__slot">
-          <gmap-autocomplete
-            v-model="location"
-            @place_changed="setPlace"
-            :options="mapOptions"
-            @focus.native="focus = true"
-            @blur.native="focus = false"
-          />
-        </div>
+        <gmap-autocomplete
+          v-model="location"
+          @place_changed="setPlace"
+          :options="mapOptions"
+          @focus.native="focus = true"
+          @blur.native="focus = false"
+          style="height: 100%; width: 100%"
+        />
       </v-input>
       <v-btn icon>
         <v-icon>search</v-icon>

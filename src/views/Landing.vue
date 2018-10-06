@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
   .landing {
-    background: linear-gradient(135deg, #8e24aa, #5c007a);
+    background: linear-gradient(-45deg, #775FA3, #493276);
     height: 100%;
   }
 </style>
