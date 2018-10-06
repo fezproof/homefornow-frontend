@@ -1,8 +1,10 @@
 <template>
   <div>
     <toolbar/>
-    <v-content>
-      <router-view/>
+    <v-content class="landing">
+      <v-container fluid grid-list-lg>
+        <router-view/>
+      </v-container>
     </v-content>
   </div>
 </template>
@@ -17,3 +19,9 @@ export default {
 };
 </script>
 
+<style scoped>
+  .landing {
+    background: linear-gradient(135deg, #8e24aa, #5c007a);
+    height: 100%;
+  }
+</style>

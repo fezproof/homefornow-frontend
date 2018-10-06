@@ -1,6 +1,6 @@
 {
-  "name": "homefornow-frontend",
-  "short_name": "homefornow-frontend",
+  "name": "Home For Now",
+  "short_name": "HFN",
   "icons": [
     {
       "src": "/img/icons/android-chrome-192x192.png",
