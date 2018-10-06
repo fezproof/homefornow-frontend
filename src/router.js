@@ -4,10 +4,10 @@ import Router from 'vue-router';
 
 import Landing from './views/Landing.vue';
 
-import Home from './components/Home.vue';
-import About from './components/About.vue';
-import TermsOfUse from './components/TermsOfUse.vue';
-import Contact from './components/Contact.vue';
+import Home from './components/Landing/Home.vue';
+import About from './components/Landing/About.vue';
+import TermsOfUse from './components/Landing/TermsOfUse.vue';
+import Contact from './components/Landing/Contact.vue';
 
 Vue.use(Router);
 
